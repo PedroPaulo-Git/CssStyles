@@ -1,0 +1,81 @@
+.loginPopup{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:  rgba(18, 12, 39, 0.918);
+    width: 25%;
+    align-items: center;
+    text-align: center;
+    height: 55%;
+    border-radius: 30px;
+    padding: 2%;
+}
+.loginPopup h1{
+    margin:0;
+    margin-bottom: 10px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    align-items: flex-start;
+    padding-left: 12%;
+    
+}
+.loginForm input{
+    position: absolute;
+    transition: all 0.5s;
+    width: 60%;
+    padding: 2%;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.267);
+    background-color:  rgba(18, 12, 39, 0);
+   
+   
+}
+.loginForm span{
+    height: 0px;
+    position: absolute;
+    padding-bottom: 0%;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+   
+  
+}
+label{
+height: 100px;
+display: flex;
+width: 100%;
+align-items: center;
+text-align: center;
+}
+.loginForm input:focus{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 50px;
+    transition: all 0.5s;
+}
+
+.loginForm button{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    bottom: 0;
+    margin-bottom: 8%;
+    padding: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    align-items: center;
+    justify-content: center;
+    
+}

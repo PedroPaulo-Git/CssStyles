@@ -1,0 +1,57 @@
+body{
+    margin-top: 100px;
+}
+.top{ 
+    position: absolute;
+    top: 0;
+    height: 70px;
+    background-color:rgb(18, 12, 39);
+    display: flex;
+    width: 100%;
+}
+.logo{
+width: 100%;
+display: flex;
+
+}
+  
+.logo_img{
+    padding-inline:4%;
+
+}
+.topInfos{
+    width: 100%;
+    align-items: center;
+    position: relative;
+    left: 0;
+    display: flex;
+    margin-right: 10%;
+    justify-content: end;
+}
+.searchContainer{
+    width: 500px;
+    display: flex;
+}
+.Search{
+    width: 300px;
+    height: 25px;
+    border: none;
+    padding-left: 10px;
+}
+.Search:focus{
+    outline: none;
+    padding-left: 10px;
+}
+.buttonSearch{
+    border: none;
+    cursor: pointer;
+}
+.buttonLogin{
+    cursor: pointer;
+    margin-left: 100%;
+    height: 28px;
+    width: 70px;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 1px 1px 3px rgb(17, 11, 34);
+}

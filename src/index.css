@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src:url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap');
+}
+
+body {
+  background-color: rgb(13, 9, 26);
+  margin: 0;
+  font-family: 'Montserrat', sans-serif, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
