@@ -1,9 +1,20 @@
 import React,{useEffect,useState} from 'react'
 import Logo from '../assets/ICONE.png'
-import styles from '../styles/Top_Menu.module.css'
+import styles from '../styles/Top_Menu.module.css';
+//import { handleClick } from '../components/LoginPopup';
 
 function Top_Menu() {
    
+    const handleClick =()=>{
+        const popUp = document.getElementById('loginpopup');
+        if (popUp) {
+            popUp.style.display = 'block';
+            console.log('Mostrando Popup')
+          } else {
+            console.error('Elemento com ID "loginpopup" não encontrado.');
+          }
+
+    }
 
     return ( 
         <div>
@@ -27,7 +38,7 @@ function Top_Menu() {
 
                     <div className={styles.LoginContainer}>
 
-                    <button className={styles.buttonLogin}>Login</button>
+                    <button onClick={handleClick} className={styles.buttonLogin}>Login</button>
 
                     </div> 
 

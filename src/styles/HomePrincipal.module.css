@@ -21,6 +21,7 @@ body {
 }
 
 .optionsContainer {
+    display: flex;
     width: 15%;
     height: 95%;
     bottom: -5%;
@@ -35,10 +36,19 @@ ul {
 }
 
 ul li {
-    margin-block: 28%;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    text-align: center;
+   align-items: center;
+    margin-block: 5%;
     cursor: pointer;
     list-style: none;
+    height: 60px;
+}
+li:hover{
 
+    border-bottom: 1px solid rgb(134, 134, 134);
 }
 .stylesDiv{
     display: flex;

@@ -1,5 +1,5 @@
 .loginPopup{
-    display: block;
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -9,7 +9,7 @@
     align-items: center;
     text-align: center;
     height: 55%;
-    border-radius: 30px;
+    border-radius: 15px;
     padding: 2%;
 }
 .loginPopup h1{
@@ -78,4 +78,13 @@ text-align: center;
     align-items: center;
     justify-content: center;
     
+}
+.closePopup{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 3% 2% 0% 0%;
 }
